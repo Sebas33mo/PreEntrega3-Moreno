@@ -1,0 +1,39 @@
+@media (min-width:768px){
+    .nosotros{
+        display: flex;
+        justify-content: space-evenly;
+    }
+ 
+    
+    
+        main{
+            // display: grid;
+            // grid-template-columns: 1fr;
+            // grid-template-rows: repeat(3, 1fr);
+            // grid-template-areas: 
+            // "A A A"
+            // "B B B"
+            // "c c c";
+            // .grid h1{
+            //     grid-area: A;
+            // }
+            // .Conocenos{
+            //     grid-area: B;
+            // }
+            // .nosotros{
+            //     grid-area: c;
+            //     gap: 10px;
+            
+            // }
+            // .nosotros div img{
+            //     width: 200px;
+                
+            // }
+            .carousel-item{
+                width: auto;
+
+            }
+    
+    }
+    
+}

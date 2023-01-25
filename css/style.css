@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.logo {
+  width: 64px; }
+
+main {
+  background: linear-gradient(#10054d, #0011ff); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 200px, 1fr, 1fr;
+  grid-template-areas: "A" "B" "c";
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+  align-items: center;
+  color: white; }
+
+.grid h1 {
+  grid-area: A; }
+
+.Conocenos {
+  grid-area: B; }
+
+.nosotros {
+  grid-area: c;
+  gap: 10px; }
+
+.nosotros div img {
+  width: 200px; }
+
+h1 {
+  color: white; }
+
+.form {
+  display: grid;
+  justify-content: center; }
+
+@media (min-width: 768px) {
+  .nosotros {
+    display: flex;
+    justify-content: space-evenly; }
+  main .carousel-item {
+    width: auto; } }
