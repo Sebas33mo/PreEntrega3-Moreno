@@ -40,6 +40,53 @@ h1 {
   display: grid;
   justify-content: center; }
 
+.main-consejos {
+  justify-items: center; }
+
+.card {
+  width: 20rem;
+  border-radius: 50px;
+  border: 4px solid black; }
+
+.card-img-top {
+  border-radius: 50px;
+  border-bottom: 2px solid black; }
+
+.logoFooter {
+  width: 34px; }
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    width: 100%; }
+    main .card-desktop {
+      width: 20rem;
+      border-radius: 50px;
+      border: 4px solid black; }
+    main .card-desktop-img {
+      border-radius: 50px;
+      border-bottom: 2px solid black; } }
+
+@media (min-width: 768px) {
+  .grid .gridTrabajo {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px 700px 200px;
+    grid-template-areas: "h1 h1 h1" "h2 h2 h2" ". C ." "p p p"; }
+    .grid .gridTrabajo h1 {
+      grid-area: h1; }
+    .grid .gridTrabajo h2 {
+      grid-area: h2; }
+    .grid .gridTrabajo .carousel {
+      grid-area: C; }
+    .grid .gridTrabajo p {
+      grid-area: p; }
+  .carousel-item img {
+    width: 500px; } }
+
 @media (min-width: 768px) {
   .nosotros {
     display: flex;

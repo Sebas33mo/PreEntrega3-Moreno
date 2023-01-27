@@ -1,0 +1,31 @@
+@media (min-width:768px){
+    .grid .gridTrabajo{
+        color: white;
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows: 100px 100px 700px 200px;
+        grid-template-areas: 
+        "h1 h1 h1"
+        "h2 h2 h2"
+        ". C ."
+        "p p p";
+        h1{
+            grid-area: h1;
+        }
+        h2{
+            grid-area: h2;
+        }
+        .carousel{
+            grid-area: C;
+        }
+        p{
+            grid-area: p;
+        }
+       
+
+    }
+    .carousel-item img{
+        width: 500px;
+        }
+    
+}
